@@ -13,7 +13,9 @@ export class AppComponent {
   students = {
     name: 'Hoang Dat',
     age: 20,
-    address: 'Long bien'
+    address: 'Long bien',
+    numberphone: '0123456789'
+    
   }
 
 

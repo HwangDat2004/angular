@@ -6,14 +6,14 @@ import { RegisterComponent } from './pages/register/register.component';
 import { ClientLayoutComponent } from './layouts/client-layout/client-layout.component';
 
 export const routes: Routes = [
-    {
-      path: '',
-      component: ClientLayoutComponent,
-      children: [
-        { path: '', component: HomepageComponent },
-        { path: 'about', component: AboutComponent },
-      ],
-    },
-    { path: 'login', component: LoginComponent },
-    { path: 'register', component: RegisterComponent },
-  ];
+  {
+    path: '',
+    component: ClientLayoutComponent,
+    children: [
+      { path: '', component: HomepageComponent },
+      { path: 'about', component: AboutComponent },
+    ],
+  },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+];

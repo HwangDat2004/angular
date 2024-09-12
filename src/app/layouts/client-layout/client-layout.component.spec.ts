@@ -11,7 +11,7 @@ describe('ClientLayoutComponent', () => {
       imports: [ClientLayoutComponent]
     })
     .compileComponents();
-
+    
     fixture = TestBed.createComponent(ClientLayoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

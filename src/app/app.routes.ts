@@ -15,11 +15,12 @@ export const routes: Routes = [
       { path: 'about', component: AboutComponent },
       { path: 'product/:id', component: ProductDetailComponent },
       { path:'register', component: RegisterComponent },
+      { path: 'login', component: LoginComponent },
       // { path: '**', component: PageNotFoundComponent }, // 404 page not found
 
     ],
   },
 
-  { path: 'login', component: LoginComponent },
+  
   
 ];

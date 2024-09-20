@@ -1,39 +1,49 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "title": "San pham A",
-        "description": "Mo ta san pham a",
-        "price": 111,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RWQ0h1LZxZHLad9eB0JVgBlzqEPPrZVeQQ&s"
-      },
-      {
-        "id": 2,
-        "title": "San pham B",
-        "description": "Mo ta san pham a",
-        "price": 111,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RWQ0h1LZxZHLad9eB0JVgBlzqEPPrZVeQQ&s"
-      },
-      {
-        "id": 3,
-        "title": "San pham C",
-        "description": "Mo ta san pham a",
-        "price": 111,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RWQ0h1LZxZHLad9eB0JVgBlzqEPPrZVeQQ&s"
-      },
-      {
-        "id": 4,
-        "title": "San pham C",
-        "description": "Mo ta san pham a",
-        "price": 111,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RWQ0h1LZxZHLad9eB0JVgBlzqEPPrZVeQQ&s"
-      }
-    ],
-    "users": [
-      {
-        "id": 1,
-        "username": "admin",
-        "password": "admin"
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "title": "San pham A",
+      "description": "Mo ta san pham a",
+      "price": 111,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RWQ0h1LZxZHLad9eB0JVgBlzqEPPrZVeQQ&s"
+    },
+    {
+      "id": 2,
+      "title": "San pham B",
+      "description": "Mo ta san pham a",
+      "price": 111,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RWQ0h1LZxZHLad9eB0JVgBlzqEPPrZVeQQ&s"
+    },
+    {
+      "id": 3,
+      "title": "San pham C",
+      "description": "Mo ta san pham a",
+      "price": 111,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RWQ0h1LZxZHLad9eB0JVgBlzqEPPrZVeQQ&s"
+    },
+    {
+      "id": 4,
+      "title": "San pham C",
+      "description": "Mo ta san pham a",
+      "price": 111,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RWQ0h1LZxZHLad9eB0JVgBlzqEPPrZVeQQ&s"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "email": "dat@gmail.com",
+      "password": "$2a$10$0Ntd8i0MeNKZxjm.TdN4GOx/n/S.0d9jyYWnlow1mHLMp4lmx2idu",
+      "id": 2
+    },
+    {
+      "email": "dat1@gmail.com",
+      "password": "$2a$10$2KjwBX469kNdf0g.jTn46e1shJVaLwRFIK3KcgRg07l9DheTETWQ6",
+      "id": 3
+    }
+  ]
+}

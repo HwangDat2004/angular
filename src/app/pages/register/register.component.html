@@ -1,6 +1,6 @@
 <div class="container">
   <h1 class="text-center my-2">Register</h1>
-  <form [formGroup]="registerForm" (ngSubmit)="handleSubmit()">
+  <form [formGroup]="registerForm" (ngSubmit)="handleRegister()">
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email address</label>
       <input
@@ -23,7 +23,6 @@
         formControlName="password"
       />
     </div>
-
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>

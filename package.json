@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "server": "json-server db.json",
+    "server": "json-server db.json -m ./node_modules/json-server-auth",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
